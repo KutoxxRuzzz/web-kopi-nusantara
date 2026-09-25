@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Kedai Kopi Nusantara</title>
+<meta name="description" content="Alamat, jam operasional, kontak, dan form pesan Kedai Kopi Nusantara.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Langsung ke konten utama</a>
+
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg" aria-label="Navigasi utama">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-cup-hot-fill" aria-hidden="true"></i>
+        <span>Kopi Nusantara</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Buka menu navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Hubungi Kami</h1>
+      <p>Datang langsung ke kedai, kirim pesan, atau sapa kami lewat media sosial.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- INFO + MAP -->
+        <div class="col-lg-6">
+          <h2 class="section-title">Informasi Kontak</h2>
+          <ul class="contact-info-list">
+            <li>
+              <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+              <span>Ruko Hampton Promenade, Blok L No.2, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334</span>
+            </li>
+            <li>
+              <i class="bi bi-clock-fill" aria-hidden="true"></i>
+              <span>Senin&ndash;Jumat: 07.00&ndash;21.00 WIB<br>Sabtu&ndash;Minggu: 08.00&ndash;22.00 WIB</span>
+            </li>
+            <li>
+              <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+              <span>Telepon/WA: <a href="tel:+6289525979887">089525979887</a></span>
+            </li>
+            <li>
+              <i class="bi bi-share-fill" aria-hidden="true"></i>
+              <div class="social-links">
+                <a href="#" aria-label="Instagram Kedai Kopi Nusantara"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                <a href="#" aria-label="Facebook Kedai Kopi Nusantara"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                <a href="#" aria-label="WhatsApp Kedai Kopi Nusantara"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+              </div>
+            </li>
+          </ul>
+
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=Karawaci,Tangerang,Banten&output=embed"
+            title="Peta lokasi Kedai Kopi Nusantara di Karawaci, Tangerang"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <!-- FORM -->
+        <div class="col-lg-6">
+          <h2 class="section-title">Kirim Pesan</h2>
+          <p class="section-intro mb-4">Ada pertanyaan atau ingin memesan untuk acara khusus? Isi form di bawah ini.</p>
+          <form action="#" method="post" novalidate>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama lengkap Anda" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="nama@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-brew">Kirim Pesan</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h4>Kopi Nusantara</h4>
+        <p>Ruko Hampton Promenade, Blok L No.2, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334.</p>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h4>Jelajahi</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h4>Jam Operasional</h4>
+        <ul>
+          <li>Senin&ndash;Jumat: 07.00&ndash;21.00</li>
+          <li>Sabtu&ndash;Minggu: 08.00&ndash;22.00</li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4>Ikuti Kami</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram Kedai Kopi Nusantara"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook Kedai Kopi Nusantara"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+          <a href="#" aria-label="WhatsApp Kedai Kopi Nusantara"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Kedai Kopi Nusantara. Seluruh hak cipta dilindungi oleh saya sendirian.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
